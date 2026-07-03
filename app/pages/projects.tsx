@@ -71,13 +71,13 @@ export default function Projects() {
                         <div
                             key={item.id}
                             className="flex flex-col items-center text-center max-w-sm 
-                                        bg-gray-900/40 backdrop-blur-md rounded-2xl p-6 shadow-lg fade-up"
+                                        bg-gray-900/40 backdrop-blur-md rounded-2xl p-4 sm:p-6 shadow-lg fade-up h-full"
                         >
                             <a
                                 href={item.href}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="w-full h-56 flex items-center justify-center overflow-hidden 
+                                className="w-full h-40 sm:h-48 md:h-56 flex items-center justify-center overflow-hidden 
                                         rounded-lg shadow-md mb-4"
                             >
                                 <img
@@ -86,9 +86,9 @@ export default function Projects() {
                                     className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
                                 />
                             </a>
-                            <div className="h-32 flex flex-col justify-start">
-                                <h3 className="text-xl font-semibold text-white mb-2">{item.title}</h3>
-                                <p className="text-sm text-gray-300 leading-relaxed">{item.description}</p>
+                            <div className="flex flex-col flex-grow justify-start w-full">
+                                <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">{item.title}</h3>
+                                <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">{item.description}</p>
                             </div>
                         </div>
                     ))}

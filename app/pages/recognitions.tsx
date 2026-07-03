@@ -6,7 +6,7 @@ export default function Recognitions() {
     { id: 2, src: "/images/EventFlow.png", alt: "EventFlow Certificate" },
     { id: 3, src: "/images/Input and Interaction.png", alt: "Input and Interaction Coursera Certificate"},
     { id: 4, src: "/images/Coursera.png", alt: "Introduction to User Experience Design Coursera Certificate" },
-    { id: 5, src: "/images/C++ Lab.png", alt: "C++ Lab Certificate" },
+    { id: 5, src: "/images/C++Lab.png", alt: "C++ Lab Certificate" },
     { id: 6, src: "/images/workshop.png", alt: "CODE Workshop Certificate of Participation" },
     { id: 7, src:  "/images/Certiport.png", alt: "Certiport Certificate"},
     ];

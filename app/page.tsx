@@ -1,12 +1,16 @@
 import Image from "next/image";
 import Nav from "./pages/Nav";
 import Hero from "./pages/hero";
+import Recognitions from "./pages/recognitions";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans ">
-     <Nav />
-     <Hero />
+    <div className="bg-zinc-50 dark:bg-black min-h-screen transition-colors duration-300">
+      <Nav />
+      <div className="flex flex-col flex-1 items-center justify-center font-sans ">
+        <Hero />
+        <Recognitions />
+      </div>
     </div>
   );
 }

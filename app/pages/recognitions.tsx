@@ -7,7 +7,7 @@ export default function Recognitions() {
     { id: 3, src: "/images/Certiport.png", alt: "Certiport Certificate" },
     { id: 4, src: "/images/Coursera.png", alt: "Coursera Certificate" },
     { id: 5, src: "/images/C++ Lab.png", alt: "C++ Lab Certificate" },
-    { id: 6, src: "/images/workshop.png", alt: "Workshop Certificate" },
+    { id: 6, src: "/images/workshop.png", alt: "CODE Workshop Certificate of Participation" },
     ];
 
     return (

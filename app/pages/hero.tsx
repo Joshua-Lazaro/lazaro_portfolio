@@ -23,7 +23,7 @@ export default function Hero() {
                 <p className="text-4xl text-gray-800 dark:text-white mb-4">Hello I'm</p>
                 <h1 className="text-6xl font-extrabold text-blue-500 mb-4">Joshua Benedict Lazaro</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">BS Computer Science 2nd Year Student</p>
-                <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">I think we should let animals vote</h2>
+                <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Technology has the power to take us to space, what else can it do?</h2>
                 
                 {/* Buttons */}
                 <div className="flex space-x-6">
@@ -46,11 +46,11 @@ export default function Hero() {
                     </button>
 
                     <a
-  href="#projects"
-  className="flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition"
->
-  See My Projects →
-</a>
+                    href="#projects"
+                    className="flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition"
+                    >
+                    See My Projects →
+                    </a>
                 </div>
             </div>
 

@@ -36,8 +36,12 @@ export default function Nav() {
         hidden ? "-translate-y-full" : "translate-y-0"
       }`}>
       <div className="flex items-center space-x-30 rounded-full">
-        <img src="/images/logo-draft.png" alt="Description" className="w-10 h-10 rounded-full" />
-        <PillNav />
+        {/* <img src="/images/logo-draft.png" alt="Description" className="w-10 h-10 rounded-full" /> */}
+        <div className="flex items-center space-x-8">
+          <a href="#hero" className="text-gray-800 dark:text-white hover:text-blue-500 transition">Home</a>
+          <a href="#projects" className="text-gray-800 dark:text-white hover:text-blue-500 transition">Projects</a>
+          <a href="#recognitions" className="text-gray-800 dark:text-white hover:text-blue-500 transition">Recognitions</a>
+        </div>
       </div>
   </nav>
 

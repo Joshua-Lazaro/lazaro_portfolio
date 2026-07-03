@@ -7,7 +7,7 @@ import Project from "./pages/projects";
 export default function Home() {
   return (
     <div className="bg-zinc-50 dark:bg-black min-h-screen transition-colors duration-300">
-      {/* <Nav /> */}
+      <Nav />
       <div className="flex flex-col flex-1 items-center justify-center font-sans ">
         <Hero />
         <Project />

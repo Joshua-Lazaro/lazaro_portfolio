@@ -4,7 +4,7 @@ import Particles from "../components/particles";
 
 export default function Hero() {
     return (
-        <div className="flex items-center gap-x-20 justify-center w-full h-screen"> {/*pt-24*/}
+        <div id="hero" className="flex items-center gap-x-20 justify-center w-full h-screen"> {/*pt-24*/}
             
             {/* Background layer */}
             <div style={{ position: 'fixed', inset: 0, zIndex: 0 }}>
@@ -19,7 +19,7 @@ export default function Hero() {
                 disableRotation={true}
                 />
             </div>
-            <div style={{position: 'relative', zIndex: 1}} className="flex flex-col mr-8">
+            <div style={{position: 'relative', zIndex: 1}} className="flex flex-col mr-8 fade-up">
                 <p className="text-4xl text-gray-800 dark:text-white mb-4">Hello I'm</p>
                 <h1 className="text-6xl font-extrabold text-blue-500 mb-4">Joshua Benedict Lazaro</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">BS Computer Science 2nd Year Student</p>
@@ -45,13 +45,16 @@ export default function Hero() {
                     Get to Know Me
                     </button>
 
-                    <button className="flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition">
-                    See My Projects →
-                    </button>
+                    <a
+  href="#projects"
+  className="flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition"
+>
+  See My Projects →
+</a>
                 </div>
             </div>
 
-            <div className="relative w-72 h-auto">
+            <div className="relative w-72 h-auto fade-up">
                 <img
                 src="/images/joshua.jpg"
                 alt="Hero Image"

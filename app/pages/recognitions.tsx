@@ -2,16 +2,16 @@
 
 export default function Recognitions() {
     const certs = [
-    { id: 1, src: "/images/Lazaro-Innovision.jpg", alt: "Certificate 1" },
-    { id: 2, src: "/images/EventFlow.png", alt: "Certificate 2" },
-    { id: 3, src: "/images/Certiport.png", alt: "Certificate 3" },
-    { id: 4, src: "/images/Coursera.png", alt: "Certificate 4" },
-    { id: 5, src: "/images/C++ Lab.png", alt: "Certificate 5" },
-    { id: 6, src: "/images/workshop.png", alt: "Certificate 6" },
+    { id: 1, src: "/images/Lazaro-Innovision.jpg", alt: "Innovision Certificate of Participation" },
+    { id: 2, src: "/images/EventFlow.png", alt: "EventFlow Certificate" },
+    { id: 3, src: "/images/Certiport.png", alt: "Certiport Certificate" },
+    { id: 4, src: "/images/Coursera.png", alt: "Coursera Certificate" },
+    { id: 5, src: "/images/C++ Lab.png", alt: "C++ Lab Certificate" },
+    { id: 6, src: "/images/workshop.png", alt: "Workshop Certificate" },
     ];
 
     return (
-    <div className="min-h-screen w-full max-w-7xl py-16 px-8">
+    <div id="recognitions" className="min-h-screen w-full max-w-7xl py-16 px-8 fade-up">
   <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-10">
     Achievements & Certifications
   </h2>
@@ -21,7 +21,7 @@ export default function Recognitions() {
       <div
         key={item.id}
         className="flex flex-col items-center text-center max-w-sm 
-                   bg-gray-900/40 backdrop-blur-md rounded-2xl p-6 shadow-lg"
+                   bg-gray-900/40 backdrop-blur-md rounded-2xl p-6 shadow-lg fade-up"
       >
         <img
           src={item.src}

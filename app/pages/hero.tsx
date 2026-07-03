@@ -4,7 +4,7 @@ import Particles from "../components/particles";
 
 export default function Hero() {
     return (
-        <div className="flex items-center gap-x-20 justify-center w-full h-screen pt-24">
+        <div className="flex items-center gap-x-20 justify-center w-full h-screen"> {/*pt-24*/}
             
             {/* Background layer */}
             <div style={{ position: 'fixed', inset: 0, zIndex: 0 }}>
@@ -45,7 +45,7 @@ export default function Hero() {
                     Get to Know Me
                     </button>
 
-                    <button className="flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-red-800 transition">
+                    <button className="flex items-center px-6 py-3 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition">
                     See My Projects →
                     </button>
                 </div>
